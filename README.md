@@ -1,6 +1,9 @@
 # CC-Cert Map
 Prototype of CC-Cert Map - web representation of <a href="https://docs.google.com/spreadsheets/d/11pnwYCYKJaBGOO-H3DJSzgEBh_xlSufKYcGT_WxN_LQ/edit#gid=0">Draft 1.1 Specs</a> 
 
+## View It
+http://cogdog.github.io/ccc-map/
+
 
 ## Licenses
 The following are paid for JQuery Libraries. Do not fork and use w/o licensing (one day this will be a private repo
