@@ -62,3 +62,11 @@ footer {
         font-size: 2em;
     }
 }
+
+/* custom css by @cogdog */
+.z-auto-g ul {
+    list-style: initial;
+    list-style-position: inside;
+    padding: initial;
+    margin: 0 1em;
+}
