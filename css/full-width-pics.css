@@ -70,3 +70,18 @@ footer {
     padding: initial;
     margin: 0 1em;
 }
+
+.z-auto-g h4 {
+    position: relative;
+}
+
+.gh-edit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.gh-edit img {
+    width: 20px;
+    height: 20px;
+}
