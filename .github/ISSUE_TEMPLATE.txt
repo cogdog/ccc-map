@@ -5,7 +5,7 @@ Suggested wording for the introductory sentence (1-2 sentences):
 
 Suggested Open Educational Resource(s) for this Objective:
 ---------------------------------------------------------------
-Include the title, URL, name of publishing organization, person, and license
+Include the title, URL, name of publishing organization/person, and license (if known)
 
 Title:
 URL: 
