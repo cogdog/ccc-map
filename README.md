@@ -6,7 +6,7 @@ http://cogdog.github.io/ccc-map/
 
 
 ## Licenses
-The following are paid for JQuery Libraries. Do not fork and use w/o licensing (one day this will be a private repo
+The following are paid for JQuery Libraries. Do not fork and use w/o licensing
 
 * Zozo Tabs http://zozoui.com/tabs/
 * Zozo Accordion http://zozoui.com/accordion/
