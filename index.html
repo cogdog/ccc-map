@@ -12,6 +12,10 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
+		<!-- featherlight css for lightbox -->
+		<link href="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+		
 	</head>
 	<body>
 
@@ -32,30 +36,75 @@
 					based on reviews of
 					<br />
 					existing certification programs.</h2>
-					<p>and other random ideas...</p>
+					<p>Sketched notes and references</p>
 
 				</header>
 
 				<div class="box alt container">
 					<section class="feature left">
+						<a href="images/system.jpg" class="image icon fa-external-link" data-featherlight="images/system.jpg"><img src="images/system-sm.jpg" alt="" /></a>
+						<div class="content">
+							<h3>System Structure</h3>
+							<p>Centralized vs distributed</p>
+						</div>
+					</section>
+				</div>
+
+				<div class="box container">
+					<section>
+
+						<ul class="default">
+							<li>CC as central authority, manages all authentication, records, distribution of certificates (<a href="http://theodi.org/">ODI</a>, <a href="https://training.linuxfoundation.org/">Linux Foundation</a>, <a href="https://www.blender.org/certification/">Blender</a>, <a href="https://www.redhat.com/en/services/training">Red Hat</a></li>
+							<li>CC as hub, manages "core" certificate, authorizes other entities to issue specialized certificates, connects to hubs via API for reporting (Mozilla somewhat distributed in content, activities)</li>
+						
+						</ul>
+					</section>
+				</div>
+
+
+				<div class="box alt container">
+					<section class="feature right">
+						<a href="images/certificate.jpg" class="image icon fa-external-link" data-featherlight="images/certificate.jpg"><img src="images/certificate-sm.jpg" alt="" /></a>
+						<div class="content">
+							<h3>What is a Certificate</h3>
+							<p>Representations, how is it acquired, distributed, verified?</p>
+						</div>
+					</section>
+				</div>
+
+				<div class="box container">
+					<section>
+
+						<ul class="default">
+						<li>something</li>
+						
+						</ul>
+					</section>
+				</div>
+
+
+
+
+
+				<div class="box container">
+					<header>
+						<h2>Source Materials</h2>
+					</header>
+				</div>
+				
+				<div class="box alt container">
+					<section class="feature left">
 						<a href="https://docs.google.com/document/d/1cKTBYZTbS4rYI-dUI1YUwgmvshEBbEzpdcyc9oELloI/edit" class="image icon fa-file-text-o "><img src="images/specs.jpg" alt="" /></a>
 						<div class="content">
-							<h3>Pre-Work Specifications</h3>
+							<h3>Pre-Work assignment</h3>
 							<p>"Picking features and functions from across these examples, and/or defining new features/functions you think are better, create an overall design for CC’s certificate program."</p>
 						</div>
 					</section>
 					<section class="feature right">
-						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="http://wikity.cogdog.casa/alan/category/review-notes/" class="image icon fa-link"><img src="images/wikity-sm.jpg" alt="" /></a>
 						<div class="content">
-							<h3>The Second Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-						</div>
-					</section>
-					<section class="feature left">
-						<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
-						<div class="content">
-							<h3>The Third Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>Wikity Notes</h3>
+							<p>Notes stored in a "Wikity Federated Wordpress" (via Mike Caulfield, <a href="http://wikity.cc">http://wikity.cc</a>), a series of cards of one idea per card.  </p>
 						</div>
 					</section>
 				</div>
@@ -252,6 +301,9 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			
+			<!-- featherlight for lightbox -->
+			<script src="//cdn.rawgit.com/noelboss/featherlight/1.4.1/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 	</body>
 </html>
