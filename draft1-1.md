@@ -3,7 +3,7 @@ blah
 
 ## 1.0 Copyright Basics
 
-* 1.1 Define Copyright
+* 1.1 **Define Copyright**
   * 1.1.1  Trace basic history of copyright
   * 1.1.2  Know how to get copyright
   * 1.1.3  Mark authorship and copyright
